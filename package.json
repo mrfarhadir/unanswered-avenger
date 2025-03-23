@@ -1,0 +1,23 @@
+{
+  "name": "unanswered-avenger",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "Farhad Mehryari",
+  "license": "ISC",
+  "description": "Unanswered Avenger is a sassy little background service that watches your Twitter replies like a hawk. If someone ignores your brilliant questions too many times, the Avenger strikes with justice — by muting or blocking them.",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "node-schedule": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
