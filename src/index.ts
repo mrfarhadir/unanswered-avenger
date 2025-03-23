@@ -4,4 +4,6 @@ import { config } from "./config";
 
 console.log("🛡️ Unanswered Avenger started...");
 
+runAvenger()
+
 schedule.scheduleJob(`*/${config.checkInterval / 60000} * * * *`, runAvenger);

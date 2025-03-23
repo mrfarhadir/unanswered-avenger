@@ -8,5 +8,7 @@ export const config = {
   actionType: process.env.ACTION_TYPE || 'mute',
   checkInterval: parseInt(process.env.CHECK_INTERVAL || '3600000'),
   persianWords: (process.env.PERSIAN_QUESTION_WORDS || '').split(',').map(w => w.trim()),
-  turkishWords: (process.env.TURKISH_QUESTION_WORDS || '').split(',').map(w => w.trim())
+  turkishWords: (process.env.TURKISH_QUESTION_WORDS || '').split(',').map(w => w.trim()),
+  myUserId: process.env.MY_TWITTER_USER_ID!,
+  myUsername: process.env.MY_TWITTER_USERNAME!
 };
